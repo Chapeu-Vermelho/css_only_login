@@ -1,0 +1,70 @@
+body {
+  background-color: rgba(0, 166, 255, 0);
+  text-align: center;
+}
+
+.box h1 {
+  font-weight: 500;
+}
+
+.box {
+  color: black;
+  background: #fbff00;
+  width: 300px;
+  padding: 40px;
+  position: fixed;
+  text-align: center;
+  display: block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 24px;
+  border: 3px solid black;
+}
+
+.box input[type='text'], .box input[type='password'] {
+  padding: 13px 10px;
+  text-align: center;
+  border-radius: 24px;
+  margin: 20px auto;
+  border-width: 3px;
+  width: 200px;
+  border-color: black;
+  -webkit-animation-name: foco;
+          animation-name: foco;
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
+}
+
+.box input[type='submit'] {
+  padding: 10px 40px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 24px;
+  display: block;
+  margin: 20px auto;
+  padding: 14px 40px;
+  width: 160px;
+  border-width: 3px;
+  border-color: black;
+}
+
+@-webkit-keyframes foco {
+  from {
+    width: 200px;
+  }
+  to {
+    width: 280px;
+  }
+}
+
+@keyframes foco {
+  from {
+    width: 200px;
+  }
+  to {
+    width: 280px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
